@@ -968,7 +968,7 @@ section,
   background-color: var(--accent-color);
   padding: 25px 0;
   color: var(--contrast-color);
-  border:4px dashed blue;
+  
 }
 
 .hero .event-ticker .ticker-item {
