@@ -27,6 +27,10 @@
   --accent-color: #089191; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --primary: #68e6e6;
+  --secondary: #97d8bd;
+  --light: #F0F6FF;
+  --dark: #060c31;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -52,6 +56,27 @@
   --heading-color: #ffffff;
   --surface-color: #252525;
   --contrast-color: #ffffff;
+}
+
+/*** Gradient Text & BG ***/
+.text-primary-gradient {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-secondary-gradient {
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-primary-gradient {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+}
+
+.bg-secondary-gradient {
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
 }
 
 /* Smooth scroll */
